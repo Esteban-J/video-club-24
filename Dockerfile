@@ -1,6 +1,6 @@
 FROM node
 WORKDIR /app
 COPY . .
-RUN nmp install
+RUN npm install
 EXPOSE 80
 CMD PORT=80 npm start
